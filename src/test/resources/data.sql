@@ -1,0 +1,1 @@
+INSERT INTO cashcard (ID, AMOUNT) VALUES(99, 123.45);
