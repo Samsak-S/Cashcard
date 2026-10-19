@@ -31,12 +31,12 @@ tasks.named('test') {
 	useJUnitPlatform()
 
 	testLogging {
-		events "failed", "passed", "skipped"
-		exceptionFormat "Full"
+		events "passed", "skipped", "failed"
+		exceptionFormat "full"
 		showExceptions true
 		showCauses true
 		showStackTraces true
 
-		showStandardStreams = true
+		showStandardStreams = false
 	}
 }
